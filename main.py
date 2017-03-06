@@ -68,8 +68,8 @@ def different_colors(color1, color2, color3):
 def num_new_complete_triangles(found_triangles, vertices, vertex):
     # Checks for any new triangles to add to the found_triangles list of triangle vertices
     # New complete triangles must:
-    #           Have different colors
-    #           Be connected
+    #           Have different colored edges
+    #           Have connected edges
     #           Not already be in the found_triangles list
     for edge1 in vertex.edges:
         for edge2 in vertex.edges:
